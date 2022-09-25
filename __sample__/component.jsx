@@ -4,7 +4,7 @@ export default class Sample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      example: 'value'
+      example: null
     };
     this.handleClick = this.handleClick.bind(this);
   }
