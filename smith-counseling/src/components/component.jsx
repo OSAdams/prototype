@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class App extends React.Component {
+export default class Hello extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,6 +10,7 @@ export default class App extends React.Component {
   }
 
   handleClick(event) {
+    // eslint-disable-next-line
     console.log(event.target);
   }
 
