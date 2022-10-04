@@ -11,13 +11,11 @@ export default class App extends React.Component {
   render() {
     return (
       <>
-        <div className="card">
-          <ul className="list-group list-group-flush">
-            <li className="list-group-item">Lorem mafuckin Ipsum</li>
-            <li className="list-group-item">Big Pimpin</li>
-            <li className="list-group-item">Spend the cheese</li>
-          </ul>
+        <div className="container py-4 px-3 mx-auto">
+          <h1>Hello, Bootstrap and Webpack!</h1>
+          <button className="btn btn-primary">Primary button</button>
         </div>
+
       </>
     );
   }
