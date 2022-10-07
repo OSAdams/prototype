@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunar Lander</title>
+</head>
+<body>
+  <!--
+    Work in Progress. UI for the user, updated data will be displayed
+    in the terminal
+  -->
+  <div class="flex right">
+    <div class="title">
+      <h3>Lunar Lander</h3>
+      <form class="placeholder" id="user-module-control">
+        <div class="top">
+          <label for="forward">
+            <input name="forward" type="button" value="W">
+          </label>
+        </div>
+        <div class="middle">
+          <label for="right">
+            <input name="right" type="button" value="D">
+          </label>
+          <label for="backwards">
+            <input name="forward" type="button" value="S">
+          </label>
+          <label for="left">
+            <input name="left" type="button" value="A">
+          </label>
+        </div>
+        <div class="bottom">
+          <label for="reset">
+            <input type="button" value="RESET">
+          </label>
+          <label for="boost">
+            <input type="button" value=" [ _ _ _ _ ] ">
+          </label>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
