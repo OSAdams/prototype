@@ -22,6 +22,7 @@
   -- Math.random() generates a number between 0 and 1 (ex: 0.559349800)
   -- Math.floor() will bring 1.1 to 1, 2.7 to 2, 10.25 to 10 ..etc..
   -- Every time the page loads, lunar landers x and y properties will be different
+  and the number will always be -10 to 10
 
   DOCUMENTATION:
   -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
@@ -80,4 +81,10 @@ function updateY(string) {
   } else {
     return { error: `${string} is an invalid argument. please pass 'right' or 'left'` };
   }
+}
+
+// eslint-disable-next-line
+function updateH() {
+  lunarLander.h += 2;
+  return lunarLander;
 }
