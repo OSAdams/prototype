@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.root {
+  width: 100vh;
+}
+
+.command-center {
+  width: 25%;
+}
+
+.flex {
+  display: flex;
+}
+
+.end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
